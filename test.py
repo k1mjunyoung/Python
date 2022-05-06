@@ -1,4 +1,5 @@
-a = [(1,2), (3,4), (5,6)]
+import sys
 
-for (first, last) in a:
-    print(first + last)
+args = sys.argv[1:]
+for i in args:
+    print(i)
