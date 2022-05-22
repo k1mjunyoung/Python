@@ -1,5 +1,7 @@
-import sys
-
-args = sys.argv[1:]
-for i in args:
-    print(i)
+try:
+    age = int(input('Enter your age : '))
+except:
+    print("입력이 정확하지 않습니다.")
+else:
+    if age <= 18:
+        print
